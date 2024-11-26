@@ -3,11 +3,11 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View, Switch } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { ThemeProvider, useTheme } from './src/context/ThemeContext';  // Certifique-se de que está importando corretamente
-import { FavoritesProvider } from './src/context/FavoritesContext'; // Certifique-se que está importando corretamente
+import { ThemeProvider, useTheme } from './src/context/ThemeContext';  
+import { FavoritesProvider } from './src/context/FavoritesContext'; 
 import HomeScreen from './src/screens/HomeScreen';
 import DetailsScreen from './src/screens/DetailsScreen';
-import FavoritesScreen from './src/screens/FavoritesScreen'; // Certifique-se de importar a tela de favoritos
+import FavoritesScreen from './src/screens/FavoritesScreen'; 
 
 const Stack = createStackNavigator();
 
